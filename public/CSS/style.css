@@ -1,0 +1,35 @@
+body{
+    background: radial-gradient(#ecb1ec, #910091);
+    height: 1000px;
+}
+
+nav{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    transition-duration: 1s;
+    width: 80%
+}
+
+nav a{
+    cursor: pointer;
+    align-self: center;
+    background-color: darkslategrey;
+    color: white;
+}
+
+nav ul{
+    text-justify: center;
+    width: 100px;
+}
+
+nav ul:hover{
+    cursor: pointer;
+    border-bottom: 2px solid white;
+}
+
+.barre_navigation{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(65, 0, 65);
+}
